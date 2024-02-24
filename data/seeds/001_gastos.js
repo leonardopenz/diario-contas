@@ -36,6 +36,34 @@ exports.seed = async function (knex) {
           ano: 2024,
           situacao: "aberto",
         },
+        {
+          descricao: "Internet",
+          valor: 100.0,
+          mes: 2,
+          ano: 2024,
+          situacao: "pago",
+        },
+        {
+          descricao: "Luz",
+          valor: 181.2,
+          mes: 2,
+          ano: 2024,
+          situacao: "pago",
+        },
+        {
+          descricao: "Água",
+          valor: 37.52,
+          mes: 2,
+          ano: 2024,
+          situacao: "pago",
+        },
+        {
+          descricao: "Faculdade",
+          valor: 185.0,
+          mes: 2,
+          ano: 2024,
+          situacao: "aberto",
+        },
       ]);
     });
 };
